@@ -1,0 +1,11 @@
+on:
+  push:
+    branches:
+      - master
+      
+name: CI test
+
+jobs:
+  test:
+    - name: ci test
+      run: go test test/* -tags=ci -coverprofile=coverage.txt . -v coverage=.
