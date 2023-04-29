@@ -7,5 +7,6 @@ name: CI test
 
 jobs:
   test:
-    - name: Go test
-      run: go test test/* -tags=ci -coverprofile=coverage.txt . -v coverage=.
+    steps:
+      - name: Go test
+        run: go test test/* -tags=ci -coverprofile=coverage.txt . -v coverage=.
