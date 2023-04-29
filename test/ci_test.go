@@ -11,4 +11,5 @@ func TestCI(t *testing.T) {
 			t.Logf("%d", i)
 		})
 	}
+	t.Log("Success.")
 }
