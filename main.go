@@ -1,7 +1,9 @@
 package main
 
-import "fmt"
+import (
+	"citest/tools"
+)
 
 func main() {
-	fmt.Println("hello world.")
+	tools.HelloWorld()
 }
