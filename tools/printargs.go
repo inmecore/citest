@@ -9,3 +9,7 @@ func PrintArgs(i int) {
 func Success() {
 	fmt.Println("Success.")
 }
+
+func HelloWorld() {
+	fmt.Println("Hello World.")
+}
