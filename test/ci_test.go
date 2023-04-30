@@ -12,5 +12,5 @@ func TestCI(t *testing.T) {
 			tools.PrintArgs(i)
 		})
 	}
-	t.Log("Success.")
+	tools.Success()
 }
